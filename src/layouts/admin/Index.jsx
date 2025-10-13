@@ -1,9 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import Navbar from "./navbar/index";
 import SideBar from "./sidebar/Index";
 import AdminContextContainer, {
   AdminContext,
 } from "../../context/adminLayoutContext.jsx";
+import Dashboard from "../../pages/dashboard/Dashboard";
 
 const Index = () => {
   const { showSidebar } = useContext(AdminContext);
@@ -20,7 +21,11 @@ const Index = () => {
             showSidebar ? "with_sidebar" : null
           }`}
           id="content_section"
-        ></section>
+        >
+
+          <Dashboard />
+
+        </section>
       </div>
     </AdminContextContainer>
   );
