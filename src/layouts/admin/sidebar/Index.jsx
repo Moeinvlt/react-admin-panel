@@ -20,43 +20,43 @@ const Index = () => {
             name="معین ورزل دوست"
             imagePath="src/assets/images/avatar/user1.jpg"
           />
-          <SideBarItem icon="fas fa-tachometer-alt" title="داشبورد" />
+          <SideBarItem targetPath="/" icon="fas fa-tachometer-alt" title="داشبورد" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="فروشگاه" />
 
-          <SideBarItem icon="fas fa-stream" title="مدیریت گروه محصول" />
+          <SideBarItem targetPath="/categories" icon="fas fa-stream" title="مدیریت گروه محصول" />
 
-          <SideBarItem icon="fas fa-cube" title="مدیریت محصول" />
+          <SideBarItem targetPath="/products" icon="fas fa-cube" title="مدیریت محصول" />
 
-          <SideBarItem icon="fas fa-copyright" title="مدیریت برند ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-copyright" title="مدیریت برند ها" />
 
-          <SideBarItem icon="fab fa-pagelines" title="مدیریت گارانتی ها" />
+          <SideBarItem targetPath="/test" icon="fab fa-pagelines" title="مدیریت گارانتی ها" />
 
-          <SideBarItem icon="fas fa-palette" title="مدیریت رنگ ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-palette" title="مدیریت رنگ ها" />
 
-          <SideBarItem icon="fas fa-percentage" title="مدیریت تخفیف ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-percentage" title="مدیریت تخفیف ها" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="سفارشات و سبد" />
 
-          <SideBarItem icon="fas fa-shopping-basket" title="مدیریت سبد ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-shopping-basket" title="مدیریت سبد ها" />
 
-          <SideBarItem icon="fas fa-luggage-cart" title="مدیریت سفارشات" />
+          <SideBarItem targetPath="/test" icon="fas fa-luggage-cart" title="مدیریت سفارشات" />
 
-          <SideBarItem icon="fas fa-truck-loading" title="مدیریت نحوه ارسال" />
+          <SideBarItem targetPath="/test" icon="fas fa-truck-loading" title="مدیریت نحوه ارسال" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="کاربران و همکاران" />
 
-          <SideBarItem icon="fas fa-users" title="مشاهده کاربران" />
+          <SideBarItem targetPath="/test" icon="fas fa-users" title="مشاهده کاربران" />
 
-          <SideBarItem icon="fas fa-user-tag" title="نقش ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-user-tag" title="نقش ها" />
 
-          <SideBarItem icon="fas fa-shield-alt" title="مجوز ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-shield-alt" title="مجوز ها" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="ارتباطات" />
 
-          <SideBarItem icon="fas fa-question-circle" title="سوال ها" />
+          <SideBarItem targetPath="/test" icon="fas fa-question-circle" title="سوال ها" />
 
-          <SideBarItem icon="fas fa-comment" title="نظرات" />
+          <SideBarItem targetPath="/test" icon="fas fa-comment" title="نظرات" />
           {/* <li className="py-2 btn-group dropstart pe-4">
                     <i className="ms-3 icon fas fa-check text-light"></i>
                     <span className="hiddenable" data-bs-toggle="dropdown" aria-expanded="false">داشبورد</span>

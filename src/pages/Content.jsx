@@ -3,6 +3,7 @@ import Category from "./category/Category";
 import Dashboard from "./dashboard/Dashboard";
 import { AdminContext } from "../context/adminLayoutContext";
 import Product from "./product/Product";
+import { Route, Routes } from "react-router";
 
 const Content = () => {
   const { showSidebar } = useContext(AdminContext);
@@ -12,11 +13,13 @@ const Content = () => {
       className={`bg-light py-2 px-3 ${showSidebar ? "with_sidebar" : null}`}
       id="content_section"
     >
-      {/* <Dashboard /> */}
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/categories" element={<Category />} />
+        <Route path="/products" element={<Product />} />
 
-      <Category />
-
-      {/* <Product /> */}
+        <Route path="*" element={<Dashboard />} />
+      </Routes>
     </section>
   );
 };
