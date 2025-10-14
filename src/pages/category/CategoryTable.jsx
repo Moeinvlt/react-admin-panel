@@ -1,4 +1,5 @@
 import PaginatedTable from "../../components/PaginatedTable";
+import AddCategory from "./AddCategory";
 
 const CateGoryTable = () => {
   const data = [
@@ -56,7 +57,7 @@ const CateGoryTable = () => {
   ];
 
   const additionalElements = (itemId) => {
-    console.log(itemId)
+    console.log(itemId);
 
     return (
       <>
@@ -94,9 +95,23 @@ const CateGoryTable = () => {
     elements: (itemId) => additionalElements(itemId),
   };
 
+  const searchParams = {
+    title: "جستجو",
+    placeholder: "قسمتی از عنوان را وارد کنید",
+    searchField: "title",
+  };
+
   return (
     <>
-      <PaginatedTable data={data} dataInfo={dataInfo} additionalField={additionalField} />
+      <PaginatedTable
+        data={data}
+        dataInfo={dataInfo}
+        additionalField={additionalField}
+        numOfPAge={8}
+        searchParams={searchParams}
+      >
+        <AddCategory />
+      </PaginatedTable>
     </>
   );
 };
