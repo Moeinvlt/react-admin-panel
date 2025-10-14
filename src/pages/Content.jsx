@@ -5,9 +5,7 @@ import { AdminContext } from "../context/adminLayoutContext";
 import Product from "./product/Product";
 
 const Content = () => {
-
   const { showSidebar } = useContext(AdminContext);
-
 
   return (
     <section
@@ -16,9 +14,9 @@ const Content = () => {
     >
       {/* <Dashboard /> */}
 
-      {/* <Category /> */}
+      <Category />
 
-      <Product />
+      {/* <Product /> */}
     </section>
   );
 };
