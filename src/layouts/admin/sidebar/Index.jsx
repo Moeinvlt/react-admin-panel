@@ -28,13 +28,13 @@ const Index = () => {
 
           <SideBarItem targetPath="/products" icon="fas fa-cube" title="مدیریت محصول" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-copyright" title="مدیریت برند ها" />
+          <SideBarItem targetPath="/brands" icon="fas fa-copyright" title="مدیریت برند ها" />
 
-          <SideBarItem targetPath="/test" icon="fab fa-pagelines" title="مدیریت گارانتی ها" />
+          <SideBarItem targetPath="/guaranties" icon="fab fa-pagelines" title="مدیریت گارانتی ها" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-palette" title="مدیریت رنگ ها" />
+          <SideBarItem targetPath="/colors" icon="fas fa-palette" title="مدیریت رنگ ها" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-percentage" title="مدیریت تخفیف ها" />
+          <SideBarItem targetPath="/discounts" icon="fas fa-percentage" title="مدیریت تخفیف ها" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="سفارشات و سبد" />
 
