@@ -38,25 +38,25 @@ const Index = () => {
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="سفارشات و سبد" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-shopping-basket" title="مدیریت سبد ها" />
+          <SideBarItem targetPath="/carts" icon="fas fa-shopping-basket" title="مدیریت سبد ها" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-luggage-cart" title="مدیریت سفارشات" />
+          <SideBarItem targetPath="/orders" icon="fas fa-luggage-cart" title="مدیریت سفارشات" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-truck-loading" title="مدیریت نحوه ارسال" />
+          <SideBarItem targetPath="/delivery" icon="fas fa-truck-loading" title="مدیریت نحوه ارسال" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="کاربران و همکاران" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-users" title="مشاهده کاربران" />
+          <SideBarItem targetPath="/users" icon="fas fa-users" title="مشاهده کاربران" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-user-tag" title="نقش ها" />
+          <SideBarItem targetPath="/roles" icon="fas fa-user-tag" title="نقش ها" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-shield-alt" title="مجوز ها" />
+          <SideBarItem targetPath="/permissions" icon="fas fa-shield-alt" title="مجوز ها" />
           {/* <!-- =================================== --> */}
           <SideBarGroupTitle title="ارتباطات" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-question-circle" title="سوال ها" />
+          <SideBarItem targetPath="/questions" icon="fas fa-question-circle" title="سوال ها" />
 
-          <SideBarItem targetPath="/test" icon="fas fa-comment" title="نظرات" />
+          <SideBarItem targetPath="/comments" icon="fas fa-comment" title="نظرات" />
           {/* <li className="py-2 btn-group dropstart pe-4">
                     <i className="ms-3 icon fas fa-check text-light"></i>
                     <span className="hiddenable" data-bs-toggle="dropdown" aria-expanded="false">داشبورد</span>

@@ -1,3 +1,4 @@
+import AddAttribute from "./AddAttribute";
 import AddCategory from "./AddCategory";
 import CateGoryTable from "./CategoryTable";
 
@@ -10,6 +11,8 @@ const Category = () => {
       <h4 className="text-center my-3">مدیریت دسته بندی محصولات</h4>
 
       <CateGoryTable />
+
+      <AddAttribute />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import AddProduct from "./AddProduct";
+import AddProductAttribute from "./AddProductAttribute";
 import TableProduct from "./TableProduct";
 
 const Product = () => {
@@ -32,6 +33,7 @@ const Product = () => {
       </div>
       <TableProduct />
         <AddProduct />
+        <AddProductAttribute />
     </div>
   );
 };
