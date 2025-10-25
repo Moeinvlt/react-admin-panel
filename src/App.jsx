@@ -1,11 +1,20 @@
+import { useLocation } from 'react-router'
 import './App.css'
-import Index from './layouts/admin'
+import AdminLayout from './layouts/admin'
+import AuthLayout from './layouts/auth/AuthLayout'
 
 function App() {
-
+  const location = useLocation()
   return (
     <>
-      <Index />
+      {
+        location.pathname.includes('/auth') ? (
+          <AuthLayout />
+        ) : (
+
+          <AdminLayout />
+        )
+      }
     </>
   )
 }

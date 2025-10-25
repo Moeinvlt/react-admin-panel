@@ -20,10 +20,10 @@ const Comments = () => {
           </div>
         </div>
         <div className="col-2 col-md-6 col-lg-4 d-flex flex-column align-items-end">
-            <AddComments />
+          <AddComments />
         </div>
       </div>
-        <CommentsTable />
+      <CommentsTable />
     </div>
   );
 };

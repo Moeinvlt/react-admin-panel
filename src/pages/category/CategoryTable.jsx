@@ -57,8 +57,6 @@ const CateGoryTable = () => {
   ];
 
   const additionalElements = (itemId) => {
-    console.log(itemId);
-
     return (
       <>
         <i
